@@ -1,7 +1,9 @@
+//modules
 const fs = require("fs");
 const path = require("path");
 const moment = require("moment");
 
+//logfile path
 const logsFilePath = path.join(__dirname, "..", "logs.json");
 
 const getLogs = (req, res, next) => {

@@ -6,7 +6,7 @@ const isAuth = (req, res, next) => {
             .status(401)
             .json({ error: "Authentication failed", message: `username & password is required` });
     }
-    res.status(200).json({ message: "authentication success" });
+
     next();
 };
 

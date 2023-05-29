@@ -124,5 +124,26 @@
     "method": "GET",
     "requestTime": "8:51 AM",
     "requestDate": "29-05-2023"
+  },
+  {
+    "host": "localhost",
+    "url": "/auth",
+    "method": "POST",
+    "requestTime": "8:55 AM",
+    "requestDate": "29-05-2023"
+  },
+  {
+    "host": "localhost",
+    "url": "/auth",
+    "method": "POST",
+    "requestTime": "8:56 AM",
+    "requestDate": "29-05-2023"
+  },
+  {
+    "host": "localhost",
+    "url": "/auth",
+    "method": "POST",
+    "requestTime": "8:56 AM",
+    "requestDate": "29-05-2023"
   }
 ]

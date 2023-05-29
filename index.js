@@ -19,7 +19,7 @@ app.use(express.json());
 app.use(getLogs);
 
 app.post("/auth", isAuth, (req, res) => {
-    res.status(200).json({ message: "success" });
+    res.status(200).json({ message: "authentication success" });
 });
 
 app.get("/logs", (req, res) => {
